@@ -15,14 +15,14 @@ O sistema também gera relatórios diários e mensais em CSV.
 ## Estrutura do Projeto
 
 sistema-visitantes/
-├── server.js # Backend Node.js + Express + SQLite
-├── visitantes.db # Banco SQLite (criado automaticamente)
-├── package.json # Dependências e scripts
-├── index.html # Entrada do Vite
-├── style.css # Estilos CSS
-└── src/
-├── main.jsx # Entrada do React
-└── App.jsx # App React
+* server.js # Backend Node.js + Express + SQLite
+* visitantes.db # Banco SQLite (criado automaticamente)
+* package.json # Dependências e scripts
+* index.html # Entrada do Vite
+* src/
+** index.css # Estilos CSS
+** main.jsx # Entrada do React
+** App.jsx # App React
 
 ---
 ## Instalação
@@ -42,16 +42,16 @@ npm install
 3. Backend (Node.js + SQLite)
 ```bash
 npm run start
-Servidor roda em: http://localhost:3001
 
 ```
+* Servidor roda em: http://localhost:3001
 
 4. Frontend (React + Vite)
 ```bash
 npm run dev
-Aplicação React roda em: http://localhost:5173
 
 ```
+* Aplicação React roda em: http://localhost:5173
 
 ## Funcionalidades
 
